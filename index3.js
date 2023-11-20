@@ -28,3 +28,65 @@
 
 
 // Higher Order Function 
+
+// 1. Passing functions as an argument (Higer Order Function)
+
+// let Uppercase=function(str)
+// {
+//     return str.toUpperCase();
+// }
+
+// let Lowercase=function(str)
+// {
+//     return str.toLowerCase();
+// }
+
+// let transformer=function(str,fun)
+// {
+//     return fun(str);
+// }
+
+// console.log(transformer("hello this transformer funn is higher order function",Uppercase));
+
+// higher order function returning another function
+
+// let compleminent=function(msg)
+// {
+//     return function(name)
+//     {
+//         console.log(`${msg} ${name}`)
+//     }
+// }
+
+// compleminent("you are a good coder")("aman");
+
+
+// Immediately invoke function expression 
+
+// (function(name)
+// {
+//     console.log(`this function will never execute again `,name);
+// })("IIFI")
+
+// Set timeout function
+
+// function fun()
+// {
+//     console.log("hello with delay")
+// }
+
+// setTimeout(fun, 5000);
+
+
+// hoisting variable are hoisted on the top of the scope 
+
+
+// test()
+
+// function test()
+// {
+//     console.log("this is hoisting ");
+// }
+
+
+
